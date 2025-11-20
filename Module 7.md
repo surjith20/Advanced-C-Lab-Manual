@@ -15,6 +15,7 @@ Else
 6.	Return 0
  
 Program:
+```
 #include<stdio.h>
 struct d
 {
@@ -31,6 +32,7 @@ int main()
     else
     printf("Age:%d\nName:%svaccine:%d\neligibility:no",s.n,s.name,s.n);
 }
+```
 Output:
 ![WhatsApp Image 2025-11-20 at 23 12 01_4a0837fd](https://github.com/user-attachments/assets/d4fd1497-7afe-490e-901a-924699fbb697)
 Result:
@@ -50,6 +52,7 @@ Algorithm:
 7.	Return 0
  
 Program:
+```
 #include <stdio.h>
 union book {
    int bookno;
@@ -65,6 +68,7 @@ int main()
     scanf("%f",&j.price);
     printf("BooK Price:%.2f\n",j.price);
 }
+```
 Output:
 ![WhatsApp Image 2025-11-20 at 23 13 58_11965313](https://github.com/user-attachments/assets/6b0ccb42-2521-4ea5-8b1f-95c5c3e6357b)
 Result:
@@ -93,6 +97,7 @@ Use scanf to input the file name into the name array.
 5.	Return 0 to indicate successful program execution.
  
 Program:
+```
 #include <stdio.h>
 
 int main() {
@@ -112,6 +117,7 @@ int main() {
 
     return 0;
 }
+```
 Output:
 ![WhatsApp Image 2025-11-20 at 23 15 36_31e7569b](https://github.com/user-attachments/assets/a7ee11f9-ff80-4e9e-adc4-19ef80364e23)
 ![WhatsApp Image 2025-11-20 at 23 15 46_c25c78c3](https://github.com/user-attachments/assets/07f9a610-9355-406f-a255-1271384adc0e)
@@ -140,6 +146,7 @@ Use scanf to input the file name into the name array and the number of strings i
 5.	Return 0 to indicate successful program execution.
  
 Program:
+```
 #include <stdio.h>
 struct d
 {
@@ -169,6 +176,7 @@ int main()
     printf("Data added Successfully");
     fclose(fp);
 }
+```
 Output:
 ![WhatsApp Image 2025-11-20 at 23 16 20_7ed40a5f](https://github.com/user-attachments/assets/4f906bfd-cc5f-4cb8-be36-f58abb1d1b29)
 
@@ -208,6 +216,7 @@ Algorithm:
 13.End the program by returning 0.
 
 Program:
+```
 #include <stdio.h>
   #include<string.h>
    struct student
@@ -244,6 +253,7 @@ Program:
    }
    return 0;
    }
+```
 Output:
 ![WhatsApp Image 2025-11-20 at 23 16 45_a90f8d22](https://github.com/user-attachments/assets/8f1af0ee-25ec-4ac5-8ac8-59b0bd6fbba7)
 Result:
