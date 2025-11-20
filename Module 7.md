@@ -15,19 +15,26 @@ Else
 6.	Return 0
  
 Program:
-
-//type your code here
-
-
+#include<stdio.h>
+struct d
+{
+    int n;
+    char name[90];
+};
+int main()
+{
+    struct d s;
+    scanf("%d",&s.n);
+    scanf("%s",s.name);
+    if(s.n>18)
+    printf("Age:%d\nName:%svaccine:%d\neligibility:yes",s.n,s.name,s.n);
+    else
+    printf("Age:%d\nName:%svaccine:%d\neligibility:no",s.n,s.name,s.n);
+}
 Output:
-
-//paste your output here
-
-
+![WhatsApp Image 2025-11-20 at 23 12 01_4a0837fd](https://github.com/user-attachments/assets/d4fd1497-7afe-490e-901a-924699fbb697)
 Result:
 Thus, the program is verified successfully. 
-
-
 
 EXP NO:2 C PROGRAM FOR PASSING STRUCTURES AS FUNCTION ARGUMENTS AND RETURNING A STRUCTURE FROM A FUNCTION
 Aim:
@@ -43,25 +50,26 @@ Algorithm:
 7.	Return 0
  
 Program:
-
-//type your code here
-
-
-
-
+#include <stdio.h>
+union book {
+   int bookno;
+char bookname[20];
+float price;
+} j;
+int main()
+{
+    scanf("%d",&j.bookno);
+    printf("Book Number:%d\n",j.bookno);
+    scanf("%s",j.bookname);
+    printf("Book Name:%s\n",j.bookname);
+    scanf("%f",&j.price);
+    printf("BooK Price:%.2f\n",j.price);
+}
 Output:
-
-
-//paste your output here
-
-
-
-
+![WhatsApp Image 2025-11-20 at 23 13 58_11965313](https://github.com/user-attachments/assets/6b0ccb42-2521-4ea5-8b1f-95c5c3e6357b)
 Result:
 Thus, the program is verified successfully
 
-
- 
 EXP.NO:3 C PROGRAM TO READ A FILE NAME FROM USER AND WRITE THAT FILE USING FOPEN()
 
 Aim:
@@ -85,33 +93,33 @@ Use scanf to input the file name into the name array.
 5.	Return 0 to indicate successful program execution.
  
 Program:
+#include <stdio.h>
 
-//type your code here
+int main() {
+    char s[100];  
+    FILE *fp;
 
+    scanf("%s", s);
+    fp = fopen(s, "w");
 
+    if (fp != NULL) {
+        printf("%s File Created Successfully\n%s File Opened\n", s, s);
+        fclose(fp);
+        printf("%s File Closed\n", s);
+    } else {
+        printf("Error: Could not create %s\n", s);
+    }
 
-
+    return 0;
+}
 Output:
-
-
-//paste your output here
-
-
-
-
-
-
-
-
-
-
+![WhatsApp Image 2025-11-20 at 23 15 36_31e7569b](https://github.com/user-attachments/assets/a7ee11f9-ff80-4e9e-adc4-19ef80364e23)
+![WhatsApp Image 2025-11-20 at 23 15 46_c25c78c3](https://github.com/user-attachments/assets/07f9a610-9355-406f-a255-1271384adc0e)
 
 Result:
 Thus, the program is verified successfully
- 
 
-
-EXP NO:4   PROGRAM TO READ A FILE NAME FROM USER, WRITE THAT FILE AND INSERT TEXT IN TO THAT FILE
+ EXP NO:4   PROGRAM TO READ A FILE NAME FROM USER, WRITE THAT FILE AND INSERT TEXT IN TO THAT FILE
 Aim:
 To write a C program to read, a file and insert text in that file
 Algorithm:
@@ -132,26 +140,40 @@ Use scanf to input the file name into the name array and the number of strings i
 5.	Return 0 to indicate successful program execution.
  
 Program:
-
-//type your code here
-
-
-
-
+#include <stdio.h>
+struct d
+{
+    int r;
+    char n[100];
+    float m;
+};
+int main()
+{
+    FILE* fp;
+    char c[100];
+    scanf("%s",c);
+    fp=fopen(c,"w");
+    if(fp!=NULL)
+    {
+        printf("%s Opened\n",c);
+    }
+    int n;
+    scanf("%d",&n);
+    struct d t[n];
+    while(n!=0)
+    {
+        scanf("%d %s %f",&t[n].r,t[n].n,&t[n].m);
+        fprintf(fp,"%d %s %.2f\n",t[n].r,t[n].n,t[n].m);
+        n--;
+    }
+    printf("Data added Successfully");
+    fclose(fp);
+}
 Output:
-
-
-//paste your output here
-
-
-
-
-
+![WhatsApp Image 2025-11-20 at 23 16 20_7ed40a5f](https://github.com/user-attachments/assets/4f906bfd-cc5f-4cb8-be36-f58abb1d1b29)
 
 Result:
 Thus, the program is verified successfully
-
-
 
 Ex No 5 : C PROGRAM TO DISPLAY STUDENT DETAILS USING STRUCTURE
 
@@ -186,21 +208,43 @@ Algorithm:
 13.End the program by returning 0.
 
 Program:
-
-//type your code here
-
-
-
-
+#include <stdio.h>
+  #include<string.h>
+   struct student
+   {
+       int regno;
+       char name[20];
+       int no_of_present;
+       int jun;
+       int july;
+       int aug;
+       int sep;
+       float avg;
+       char eligibilty[5];
+   };
+   int main()
+   { 
+       struct student stu1;
+   scanf("%d%s",&stu1.regno,stu1.name);
+   scanf("%d%d%d%d",&stu1.jun,&stu1.july,&stu1.aug,&stu1.sep);
+   if(stu1.jun<=21 && stu1.july<=21 && stu1.aug<=21 && stu1.sep<=21)
+   {
+   stu1.no_of_present=stu1.jun+stu1.july+stu1.aug+stu1.sep;
+   stu1.avg=(float)stu1.no_of_present/84 * 100;
+   if(stu1.avg>75)
+   strcpy(stu1.eligibilty,"yes");
+   else
+   strcpy(stu1.eligibilty,"no");
+   printf("Reg.no:%d\nName:%s\nTotal.No.of.present days:%d\n",stu1.regno,stu1.name,stu1.no_of_present);
+   printf("Attendence:%.2f\neligibility:%s",stu1.avg,stu1.eligibilty);
+   }
+   else
+   {
+   printf("Invalid data:No.of.present days is greater than working day");
+   }
+   return 0;
+   }
 Output:
-
-
-//paste your output here
-
-
-
-
-
-
+![WhatsApp Image 2025-11-20 at 23 16 45_a90f8d22](https://github.com/user-attachments/assets/8f1af0ee-25ec-4ac5-8ac8-59b0bd6fbba7)
 Result:
 Thus, the program is verified successfully
