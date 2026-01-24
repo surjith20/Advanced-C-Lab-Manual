@@ -13,7 +13,6 @@ Algorithm:
 -	Case 13: Print "seventy nine"
 -	Default: Print "Greater than 13"
 4.	Exit the program.
- 
 Program:
 ```
 #include<stdio.h> #include<math.h> int main()
