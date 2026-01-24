@@ -34,6 +34,8 @@ int main()
 ```
 Output:
 ![WhatsApp Image 2025-11-20 at 23 12 01_4a0837fd](https://github.com/user-attachments/assets/d4fd1497-7afe-490e-901a-924699fbb697)
+
+
 Result:
 Thus, the program is verified successfully. 
 
@@ -70,6 +72,7 @@ int main()
 ```
 Output:
 ![WhatsApp Image 2025-11-20 at 23 13 58_11965313](https://github.com/user-attachments/assets/6b0ccb42-2521-4ea5-8b1f-95c5c3e6357b)
+
 Result:
 Thus, the program is verified successfully
 
