@@ -1,4 +1,4 @@
-EXP NO:6 C PROGRAM PRINT THE LOWERCASE ENGLISH WORD CORRESPONDING TO THE NUMBER
+# EXP NO:6 C PROGRAM PRINT THE LOWERCASE ENGLISH WORD CORRESPONDING TO THE NUMBER
 Aim:
 To write a C program print the lowercase English word corresponding to the number
 Algorithm:
@@ -67,7 +67,7 @@ printf("Greater than 13");
 }
 }
 ```
-Output:
+# Output:
 
 ![WhatsApp Image 2025-11-20 at 23 26 05_12c50070](https://github.com/user-attachments/assets/7ca4e64d-5b24-4323-8881-f9b908a7702b)
 
