@@ -32,11 +32,12 @@ int main()
     printf("Age:%d\nName:%svaccine:%d\neligibility:no",s.n,s.name,s.n);
 }
 ```
-Output:
+
+# Output:
 ![WhatsApp Image 2025-11-20 at 23 12 01_4a0837fd](https://github.com/user-attachments/assets/d4fd1497-7afe-490e-901a-924699fbb697)
 
 
-Result:
+# Result:
 Thus, the program is verified successfully. 
 
 # EXP NO:2 C PROGRAM FOR PASSING STRUCTURES AS FUNCTION ARGUMENTS AND RETURNING A STRUCTURE FROM A FUNCTION
@@ -70,10 +71,10 @@ int main()
     printf("BooK Price:%.2f\n",j.price);
 }
 ```
-Output:
+# Output:
 ![WhatsApp Image 2025-11-20 at 23 13 58_11965313](https://github.com/user-attachments/assets/6b0ccb42-2521-4ea5-8b1f-95c5c3e6357b)
 
-Result:
+# Result:
 Thus, the program is verified successfully
 
 # EXP.NO:3 C PROGRAM TO READ A FILE NAME FROM USER AND WRITE THAT FILE USING FOPEN()
@@ -120,11 +121,11 @@ int main() {
     return 0;
 }
 ```
-Output:
+# Output:
 ![WhatsApp Image 2025-11-20 at 23 15 36_31e7569b](https://github.com/user-attachments/assets/a7ee11f9-ff80-4e9e-adc4-19ef80364e23)
 ![WhatsApp Image 2025-11-20 at 23 15 46_c25c78c3](https://github.com/user-attachments/assets/07f9a610-9355-406f-a255-1271384adc0e)
 
-Result:
+# Result:
 Thus, the program is verified successfully
 
  # EXP NO:4   PROGRAM TO READ A FILE NAME FROM USER, WRITE THAT FILE AND INSERT TEXT IN TO THAT FILE
@@ -179,10 +180,10 @@ int main()
     fclose(fp);
 }
 ```
-Output:
+# Output:
 ![WhatsApp Image 2025-11-20 at 23 16 20_7ed40a5f](https://github.com/user-attachments/assets/4f906bfd-cc5f-4cb8-be36-f58abb1d1b29)
 
-Result:
+# Result:
 Thus, the program is verified successfully
 
 # Ex No 5 : C PROGRAM TO DISPLAY STUDENT DETAILS USING STRUCTURE
@@ -256,7 +257,7 @@ Program:
    return 0;
    }
 ```
-Output:
+# Output:
 ![WhatsApp Image 2025-11-20 at 23 16 45_a90f8d22](https://github.com/user-attachments/assets/8f1af0ee-25ec-4ac5-8ac8-59b0bd6fbba7)
-Result:
+# Result:
 Thus, the program is verified successfully
