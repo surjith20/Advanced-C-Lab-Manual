@@ -74,7 +74,7 @@ printf("Greater than 13");
 Result:
 Thus, the program is verified successfully
  
-EXP NO:7 C PROGRAM TO PRINT TEN SPACE-SEPARATED INTEGERS     IN A SINGLE  LINE DENOTING THE FREQUENCY OF EACH DIGIT FROM 0 TO 3 .
+# EXP NO:7 C PROGRAM TO PRINT TEN SPACE-SEPARATED INTEGERS     IN A SINGLE  LINE DENOTING THE FREQUENCY OF EACH DIGIT FROM 0 TO 3 .
 Aim:
 To write a C program to print ten space-separated integers in a single line denoting the frequency of each digit from 0 to 3.
 Algorithm:
@@ -104,14 +104,14 @@ printf("%d ",c); h++;
 }
 }
 ```
-Output:
+# Output:
 
 ![WhatsApp Image 2025-11-20 at 23 26 27_29dbc4d6](https://github.com/user-attachments/assets/2eb12251-f1a1-4fe8-9eda-5f44223d8de3)
 
 Result:
 Thus, the program is verified successfully
 
-EXP NO:8 C PROGRAM TO PRINT ALL OF ITS PERMUTATIONS IN STRICT LEXICOGRAPHICAL ORDER.
+# EXP NO:8 C PROGRAM TO PRINT ALL OF ITS PERMUTATIONS IN STRICT LEXICOGRAPHICAL ORDER.
 Aim:
 To write a C program to print all of its permutations in strict lexicographical order.
 
